@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: #66432d;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+  color: #66432d;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+  color: #66432d;
+}
+
+body {
+  background-color: rgb(219, 169, 141);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+table,form{
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 3%;
+}
+
+td{
+  text-align: center;
+  color: #C0BDBD;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+th{
+  color: #fff;;
+  text-align: center;
+  text-decoration: underline #c07834 3px;
+  
+}
+tr{
+  
+  background-color: #66432d;
+  text-align: left;
+}
+
+
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button1{
+  border-radius: 20px;
+  border: none;
+  width: 75px;
+  height: 30px;
+  color: #fff;
+  margin: 10px;
+  background-color: #c07834;
+  cursor: pointer;
+}
+#button2{
+  border-radius: 20px;
+  border: none;
+  width: 75px;
+  height: 30px;
+  color: #fff;
+  margin: 10px;
+  background-color: #c07834;
+  cursor: pointer;
+}
+.form input {
+  width: 27em;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width:30% ;
+  margin-top: 2em;
+  align-items: center;
+}
+.form label{
+  color: #fff;
+}
+.boton-submit {
+  width: 26em;
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color:  #c07834;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: #70b3f1;
+}
+
+.img{
+  width: 10%;
+  display: block;
+  margin: auto;
+}
+
+.datos{
+  margin-bottom: 4%;
+}
